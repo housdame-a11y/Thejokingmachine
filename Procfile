@@ -1,1 +1,1 @@
-worker: python Thejokingmachine.py
+worker: python bot.py
