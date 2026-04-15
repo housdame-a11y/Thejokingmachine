@@ -4,9 +4,8 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
 # 🔑 KEYS
-client = Groq(api_key="groqapikey")
-TELEGRAM_TOKEN = "telegrambotapikey"
-
+client = Groq(api_key="YOUR_GROQ_API_KEY")
+TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
 # 🎬 START MENU
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
